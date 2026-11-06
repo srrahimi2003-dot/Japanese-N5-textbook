@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Vazirmatn', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  }
+}
+
+.font-jp {
+  font-family: 'Noto Sans JP', 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+}
+
+.font-mono-code {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Furigana ruby formatting for optimal clarity and alignment */
+ruby {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  vertical-align: bottom;
+  text-align: center;
+  line-height: 1.15;
+}
+
+rb {
+  display: inline;
+}
+
+rt {
+  display: block;
+  font-size: 0.62em;
+  line-height: 1;
+  font-weight: 500;
+  color: #be123c; /* Rose-700 for distinct ruby readings */
+  user-select: none;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(168, 162, 158, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(168, 162, 158, 0.7);
+}

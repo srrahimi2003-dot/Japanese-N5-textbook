@@ -1,0 +1,6 @@
+{
+  "name": "درسنامه جامع گرامر زبان ژاپنی (JLPT N5)",
+  "description": "کتاب تعاملی و درسنامه فوق‌جامع گرامر زبان ژاپنی همراه با تحلیل کلمه به کلمه، سناریوهای واقعی روزمره، تلفظ صوتی و تمرین‌های آموزشی عمیق.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
